@@ -3,6 +3,8 @@ Proposing Tag of Flag as a game with 12-DOF quadrupeds carrying a 6-DOF arm. The
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
+The following are some suggestive rules just to have a starting point.
+
 ## Goal
 
 The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on the robot's back. If the player can capture the opponent's flag with the arm or if the opponent exits the arena on all landed feet, the player wins.
