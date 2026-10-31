@@ -11,16 +11,24 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 ## Robot requirements
 
-  * Must be 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
-  * Must be printed with PLA or its variants for all its support parts, but otherwise completely free to design any parts (will need restriction on shielding around the flag eventually). Bolts+nuts, heat set inserts, and glue are all allowed on the PLA
-  * Must be controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
+  * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
+  * Printed with PLA or its variants for all its support parts, but otherwise completely free to design any parts (will need restriction on shielding around the flag eventually). Bolts+nuts, heat set inserts, and glue are all allowed on the PLA
+  * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
+  * No wheels for now
 
 ## Arena/Flag
 
   * The arena is a 160 cm x 180 cm fire blancket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * The robots start from opposite ends of the arena facing each other
   * Flag insert standard, not decided. Maybe a survey flag with an 8 cm insert (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)), probably too big though
+
+## Potential strategies
+
+  * Use PLA shielding to protect the flag surround, or hook structure on the arm (maybe hook structure should be avoided too)
+  * Just control better to bypass the opponent's arm, made possible if the gait is nicely written
+  * Use Nav to circle the opponent
+  * Use RL to compensate for the arm extension imbalance
 
 ## References:
 
