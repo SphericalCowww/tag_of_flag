@@ -37,7 +37,10 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
-Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode is needed to maximally extend the arm.
+Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode is needed to maximally extend the arm
+
+  * Note that no rule says the belly cannot contact the ground
+  * Even if the leg is broken, the player is still in the game if the flag is still safe
 
 ## Team idea
 
