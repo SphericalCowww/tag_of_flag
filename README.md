@@ -51,7 +51,9 @@ Hopefully, in developing the winning strategies, the game also enforces multiple
 
 ## Team idea
 
-  * Perhaps a team of 4, with one as the ace that is allowed to have wheels. Then can be played under different terrains
+  * Perhaps a team of 4, with one as the ace that is allowed to have wheels
+    - robot with flag taken is out of commission
+    - can be played under different terrains
   * Perhaps allow multi-robot coordination codes
   * Perhaps allow CAD linkage between robots
 
