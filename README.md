@@ -21,7 +21,8 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
   * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
-    - bolts+nuts, heat set inserts, and glue are all allowed
+    - bolts+nuts+washers, heat set inserts, and glue are all allowed
+    - also allow bearings, and the linkages are allowed to be non-PLA materials 
     - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount when mounted. The only exception will be the moving parts of the arm
     - no hook structure on the arm 
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
