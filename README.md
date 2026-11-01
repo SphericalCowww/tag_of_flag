@@ -9,20 +9,24 @@ The following are some suggestive rules just to have a starting point.
 
 The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on the robot's back. If the player can capture the opponent's flag with the arm or if the opponent exits the arena on all landed feet, the player wins.
 
-## Robot requirements
-
-  * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
-  * Printed with PLA or its variants for all its support parts, but otherwise completely free to design any parts (will need restriction on shielding around the flag eventually). Bolts+nuts, heat set inserts, and glue are all allowed on the PLA
-  * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
-  * Sensors up to 200 EUR are allowed, but watch out for potential damages
-  * Should be untethered
-  * No wheels by default
-
 ## Arena/Flag
 
   * The arena is a 160 cm x 180 cm fire blancket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * The robots start from opposite ends of the arena facing each other
-  * Flag insert standard, not decided. Maybe a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62), should be very lightweight), with a 3D printed mountable block with a 8 cm loose insert 
+
+  * Define **baseline** as the top of the battery pack
+  * Flag insert standard, not decided. Maybe a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62), should be very lightweight), with a 3D-printed mountable flag-block (1.5 cm radius cylinder with 8 cm height; or perhaps trumpet shape) that has an 8 cm loose insert facing up. The bottom of the flag-block should be within 4 cm in height
+
+## Robot requirements
+
+  * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
+  * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts flag-block when mounted
+    - bolts+nuts, heat set inserts, and glue are all allowed
+    - considering the shielding dimension, the CAD should not be built to be taller than the flag-block when mounted. Only exception will be the moving parts of the arm
+  * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
+  * Sensors up to 200 EUR are allowed, but watch out for potential damages
+  * Untethered using batteries
+  * No wheels by default
 
 ## Potential strategies
 
