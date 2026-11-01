@@ -30,6 +30,8 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
+Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel.
+
 ## Team idea
 
   * Perhaps a team of 4, with one as the ace that is allowed to have wheels. Then can be played under different terrains
