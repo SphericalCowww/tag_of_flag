@@ -3,13 +3,17 @@ Proposing Tag of Flag as a game with 12-DOF quadrupeds carrying a 6-DOF arm. The
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
+In developing the winning strategies, this game could enforce multiple engineering disciplines that are beneficial to the robotics community. I believe this game has the potential to be **a long-term educational and research platform and a worthwhile benchmark** to aim for.
+
 The following are some suggestive rules just to have a starting point.
 
-## Goal
+## V0 Rules
+
+### Goal
 
 The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on the robot's back. The player wins when the opponent's flag leaves the flag-mount in any way or if the opponent exits the arena on all landed feet.
 
-## Arena/Flag
+### Arena/Flag
 
   * Arena: 160 cm x 180 cm fire blanket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * Start position: opposite ends of the arena facing each other
@@ -22,7 +26,7 @@ Additional rule:
   * Deliberate damage to the electronics and other robot components is not allowed, so no tripping legs
   * Potential timeout 
 
-## Robot requirements
+### Robot requirements
 
   * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
@@ -36,7 +40,7 @@ Additional rule:
   * No wheels by default
   * No projectiles
 
-## Potential tactics
+### Potential tactics
 
   * Use PLA shielding to protect the flag surround
   * Control better manually to bypass the opponent's arm using the leader arm, made possible if the gait is nicely written
@@ -48,11 +52,8 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
 
-## Education
 
-In developing the winning strategies, the game could enforce multiple engineering disciplines that are beneficial to the robotics communities. I believe this game has the potential to be a long-term educational and research platform and a worthwhile benchmark to aim for.
-
-## Team idea
+### Team idea
 
   * Perhaps a team of 4, with one as the ace that is allowed to have wheels
     - robot with flag taken is out of commission
