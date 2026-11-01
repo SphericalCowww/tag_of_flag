@@ -33,7 +33,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 ## Potential tactics
 
   * Use PLA shielding to protect the flag surround
-  * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
+  * Control better manually to bypass the opponent's arm using the leader arm, made possible if the gait is nicely written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
