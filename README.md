@@ -1,5 +1,5 @@
 # Tag of Flag
-Proposing Tag of Flag as a game with 12-DOF quadrupeds carrying a 6-DOF arm. The goal of the game is to capture the flag on the back of the quadruped of the opponent team.
+Proposing Tag of Flag as a game with 12-DOF quadrupeds carrying a 6-DOF arm. The goal is to capture the flag on the opponent team's quadruped's back.
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
@@ -21,14 +21,18 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
   * The arena is a 160 cm x 180 cm fire blancket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * The robots start from opposite ends of the arena facing each other
-  * Flag insert standard, not decided. Maybe a survey flag with an 8 cm insert (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)), probably too big though
+  * Flag insert standard, not decided. Maybe a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62), should be very lightweight), with a 3D printed mountable block with a 8 cm insert 
 
 ## Potential strategies
 
   * Use PLA shielding to protect the flag surround, or hook structure on the arm (maybe hook structure should be avoided too)
-  * Just control better to bypass the opponent's arm, made possible if the gait is nicely written
-  * Use Nav to circle the opponent
+  * Manually control better to bypass the opponent's arm, made possible if the gait is nicely written
+  * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
+
+## Team idea
+
+  * Perhaps a team of 4, with one as the ace that is allowed to have wheels. Then can be played under different terrains
 
 ## References:
 
