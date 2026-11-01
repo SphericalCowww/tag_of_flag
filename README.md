@@ -15,7 +15,8 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Printed with PLA or its variants for all its support parts, but otherwise completely free to design any parts (will need restriction on shielding around the flag eventually). Bolts+nuts, heat set inserts, and glue are all allowed on the PLA
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
-  * No wheels for now
+  * Should be untethered
+  * No wheels by default
 
 ## Arena/Flag
 
