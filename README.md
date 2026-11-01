@@ -39,6 +39,7 @@ Additional rule:
   * Untethered using batteries
   * No wheels by default
   * No projectiles
+  * No controller interference
 
 ### Potential tactics
 
