@@ -35,7 +35,8 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 ## Team idea
 
   * Perhaps a team of 4, with one as the ace that is allowed to have wheels. Then can be played under different terrains
-  * Perhaps allow multi-agent coordination codes
+  * Perhaps allow multi-robot coordination codes
+  * Perhaps allow CAD linkage between robots
 
 ## References:
 
