@@ -20,9 +20,10 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 ## Robot requirements
 
   * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
-  * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts flag-block when mounted
+  * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts other than the flag-block
     - bolts+nuts, heat set inserts, and glue are all allowed
-    - considering the shielding dimension, the CAD should not be built to be taller than the flag-block when mounted. Only exception will be the moving parts of the arm
+    - considering the shielding dimension, the CAD should not be built to be taller than the flag-block when mounted. The only exception will be the moving parts of the arm
+    - no hook structure on the arm 
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
   * Untethered using batteries
@@ -30,12 +31,12 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 ## Potential strategies
 
-  * Use PLA shielding to protect the flag surround, or hook structure on the arm (maybe hook structure should be avoided too)
-  * Manually control better to bypass the opponent's arm, made possible if the gait is nicely written
+  * Use PLA shielding to protect the flag surround
+  * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
-Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel.
+Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode is needed to maximally extend the arm.
 
 ## Team idea
 
