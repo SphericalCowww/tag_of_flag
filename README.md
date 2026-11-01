@@ -48,7 +48,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
 
-Hopefully, in developing the winning strategies, the game also enforces multiple engineering disciplines that are beneficial to the robotics communities. I think this game has the potential to be a long-term educational and research platform.
+Hopefully, in developing the winning strategies, the game also enforces multiple engineering disciplines that are beneficial to the robotics communities. I think this game has the potential to be a long-term educational and research platform and a worthwhile benchmark to aim for.
 
 ## Team idea
 
