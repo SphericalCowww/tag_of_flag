@@ -19,7 +19,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 Additional rule:
 
-  * Deliberate damage to the electronics is not allowed
+  * Deliberate damage to the electronics and other robot components is not allowed, so no tripping legs
 
 ## Robot requirements
 
