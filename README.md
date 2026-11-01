@@ -20,6 +20,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 Additional rule:
 
   * Deliberate damage to the electronics and other robot components is not allowed, so no tripping legs
+  * Potential timeout 
 
 ## Robot requirements
 
@@ -53,6 +54,7 @@ Hopefully, in developing the winning strategies, the game also enforces multiple
 
   * Perhaps a team of 4, with one as the ace that is allowed to have wheels
     - robot with flag taken is out of commission
+    - 10 min game. The team with the most flags left wins
     - can be played under different terrains
   * Perhaps allow multi-robot coordination codes
   * Perhaps allow CAD linkage between robots
