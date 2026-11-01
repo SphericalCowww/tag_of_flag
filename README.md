@@ -11,18 +11,18 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 ## Arena/Flag
 
-  * The arena is a 160 cm x 180 cm fire blancket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
-  * The robots start from opposite ends of the arena facing each other
-
-  * Define **baseline** as the top of the battery pack
-  * Flag insert standard, not decided. Maybe a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62), should be very lightweight), with a 3D-printed mountable flag-block (1.5 cm radius cylinder with 8 cm height; or perhaps trumpet shape) that has an 8 cm loose insert facing up. The bottom of the flag-block should be within 4 cm in height
+  * Arena: 160 cm x 180 cm fire blanket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
+  * Start position: opposite ends of the arena facing each other
+  * Height baseline: the top of the battery pack
+  * Flag standard: a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)). should be very lightweight),
+  * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
 
 ## Robot requirements
 
   * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
-  * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts other than the flag-block
+  * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - bolts+nuts, heat set inserts, and glue are all allowed
-    - considering the shielding dimension, the CAD should not be built to be taller than the flag-block when mounted. The only exception will be the moving parts of the arm
+    - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount when mounted. The only exception will be the moving parts of the arm
     - no hook structure on the arm 
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
