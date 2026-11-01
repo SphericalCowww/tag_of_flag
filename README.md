@@ -14,7 +14,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Arena: 160 cm x 180 cm fire blanket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * Start position: opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
-  * Flag standard: a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)). should be very lightweight),
+  * Flag standard: a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)), should be pretty lightweight
   * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
 
 ## Robot requirements
