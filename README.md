@@ -17,6 +17,10 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Flag standard: a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)), should be pretty lightweight
   * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
 
+Additional rule:
+
+  * Deliberate damage to the electronics is not allowed
+
 ## Robot requirements
 
   * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
