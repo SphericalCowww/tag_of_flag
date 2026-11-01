@@ -28,6 +28,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
   * Untethered using batteries
   * No wheels by default
+  * No projectiles
 
 ## Potential strategies
 
