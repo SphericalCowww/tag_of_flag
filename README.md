@@ -21,7 +21,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
   * The arena is a 160 cm x 180 cm fire blancket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * The robots start from opposite ends of the arena facing each other
-  * Flag insert standard, not decided. Maybe a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62), should be very lightweight), with a 3D printed mountable block with a 8 cm insert 
+  * Flag insert standard, not decided. Maybe a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62), should be very lightweight), with a 3D printed mountable block with a 8 cm loose insert 
 
 ## Potential strategies
 
