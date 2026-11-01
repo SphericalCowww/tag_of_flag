@@ -30,7 +30,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * No wheels by default
   * No projectiles
 
-## Potential strategies
+## Potential tactics
 
   * Use PLA shielding to protect the flag surround
   * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
@@ -41,6 +41,8 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
+
+Hopefully, in developing the winning strategies, the game also enforces multiple engineering disciplines that are beneficial to the robotics communities.
 
 ## Team idea
 
