@@ -7,7 +7,7 @@ The following are some suggestive rules just to have a starting point.
 
 ## Goal
 
-The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on the robot's back. If the player can capture the opponent's flag with the arm or if the opponent exits the arena on all landed feet, the player wins.
+The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on the robot's back. The player wins when the opponent's flag leaves the flag-mount in any way or if the opponent exits the arena on all landed feet.
 
 ## Arena/Flag
 
