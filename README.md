@@ -25,7 +25,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 Additional rule:
 
-  * Deliberate damage to the electronics and other robot components is not allowed, so no tripping legs. Pushing is okay; pulling or smashing on the robot components is not okay
+  * Deliberate damage to the electronics and other robot components is not allowed. The robot body can push each other, but the robot arm can only interact with the opponent's robot arm and the flag, and not the robot body
   * Potential timeout of 5 min
   * Can do best of 5, for instance
 
