@@ -31,7 +31,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
     - bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - also allow bearings, and the linkages are allowed to be non-PLA materials, but again only for connections
     - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount when mounted. The only exception will be the moving parts of the arm
-    - no hook structure on the arm 
+    - no hook or sharp structure on the arm 
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
   * Untethered using batteries
@@ -42,7 +42,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 ### Game rules
 
   * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
-  * Deliberate damage to the electronics and other robot components is not allowed. The robot body can push each other, but the robot arm can only interact with the opponent's robot arm and the flag, and not the robot body
+  * Deliberately damaging the other robot is not allowed. The robot bodies can push each other, but if the robot arm is verified to cause damage to electronics/servos parts, then the player loses the game
   * Potential timeout of 5 min
 
 ### Potential tactics
