@@ -11,11 +11,11 @@ The following are some suggestive rules just to have a starting point.
 
 ### Goal
 
-The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena on all landed feet.
+The goal of the game is very simple: 2 players each control a quadruped that starts with a flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena on all landed feet.
 
 ### Arena/Flag
 
-  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F))
+  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F)). The arena may shift around due to motion, and that should be okay
   * Start position: opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
