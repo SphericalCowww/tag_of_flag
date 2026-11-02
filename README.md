@@ -13,18 +13,21 @@ The following are some suggestive rules just to have a starting point.
 
 The goal of the game is very simple: 2 players each control a quadruped that starts with a flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena
 
-### Arena/Flag
 
-  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F)), and exiting the arena only if all landed feet are outside the arena. The arena shifting around due to motion should be okay, but pause when folding
-  * Arena alternative: a 1.6 m x 1.8 m fire blanket (for example, [Amazon](https://www.amazon.de/-/en/Fire-Blanket-160-180-Kitchen/dp/B0DWRVCSNK)), and exiting the arena if a foot lands outside the arena
+
+### Arena/flag
+
+  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F)), or a 1.6 m x 1.8 m fire blanket (for example, [Amazon](https://www.amazon.de/-/en/Fire-Blanket-160-180-Kitchen/dp/B0DWRVCSNK))
   * Start position: opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 3 8cm tall survey flag (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)), should be pretty lightweight
   * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
 
-Additional rule:
+### Game rules
 
+  * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena
+  * The arena shifting around due to motion should be okay, but pause when folding
   * Deliberate damage to the electronics and other robot components is not allowed. The robot body can push each other, but the robot arm can only interact with the opponent's robot arm and the flag, and not the robot body
   * Potential timeout of 5 min
   * Can do best of 5, for instance
