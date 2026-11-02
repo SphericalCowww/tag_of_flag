@@ -24,14 +24,6 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Flag standard: a 3 8cm tall survey flag (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)), should be pretty lightweight
   * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
 
-### Game rules
-
-  * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena
-  * The arena shifting around due to motion should be okay, but pause when folding
-  * Deliberate damage to the electronics and other robot components is not allowed. The robot body can push each other, but the robot arm can only interact with the opponent's robot arm and the flag, and not the robot body
-  * Potential timeout of 5 min
-  * Can do best of 5, for instance
-
 ### Robot requirements
 
   * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
@@ -46,6 +38,12 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * No wheels by default
   * No projectiles
   * No controller interference
+
+### Game rules
+
+  * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
+  * Deliberate damage to the electronics and other robot components is not allowed. The robot body can push each other, but the robot arm can only interact with the opponent's robot arm and the flag, and not the robot body
+  * Potential timeout of 5 min
 
 ### Potential tactics
 
