@@ -15,7 +15,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 ### Arena/Flag
 
-  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F)). The arena may shift around due to motion, and that should be okay
+  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F)). The arena shifting around due to motion should be okay, but pause when fold
   * Start position: opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
