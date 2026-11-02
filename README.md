@@ -11,20 +11,22 @@ The following are some suggestive rules just to have a starting point.
 
 ### Goal
 
-The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on the robot's back. The player wins when the opponent's flag leaves the flag-mount in any way or if the opponent exits the arena on all landed feet.
+The goal of the game is very simple: 2 players each control a quadruped that starts with a standardized flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena on all landed feet.
 
 ### Arena/Flag
 
   * Arena: 160 cm x 180 cm fire blanket (for example, [Amazon](https://www.amazon.de/Extra-Large-Fire-Blanket-Extinguisher/dp/B0FX38NKM7))
   * Start position: opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
+  * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a survey flag (for example, [Amazon](https://www.amazon.de/dp/B0FBKQ2F62)), should be pretty lightweight
   * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
 
 Additional rule:
 
-  * Deliberate damage to the electronics and other robot components is not allowed, so no tripping legs
-  * Potential timeout 
+  * Deliberate damage to the electronics and other robot components is not allowed, so no tripping legs. Pushing is okay; pulling or smashing is not okay
+  * Potential timeout of 5 min
+  * Can do best of 3, for instance
 
 ### Robot requirements
 
@@ -53,11 +55,10 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
 
-
 ### Team idea
 
   * Perhaps a team of 4, with one as the ace that is allowed to have wheels
-    - robot with flag taken is out of commission
+    - robot with flag taken continues to be active on the field
     - 10 min game. The team with the most flags left wins
     - can be played under different terrains
   * Perhaps allow multi-robot coordination codes
