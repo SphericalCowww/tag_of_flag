@@ -60,7 +60,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 ### Team idea
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
-    - arena size limited to balance the ace, perhaps 274 cm x 152 cm like the table tennis court
+    - arena size limited to balance the ace, perhaps 2.4 m x 1.8 m welding blanket (for example, [Amazon](https://www.amazon.de/PAWBOSE-Welding-Blanket-Silicone-Coated-Fibreglass))
     - free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
     - each robot carries a flag, and the robot with its flag taken continues to be active on the field
     - 10 min game. The team with the most flags left wins
