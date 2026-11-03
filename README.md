@@ -52,7 +52,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
-Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode is needed to maximally extend the arm
+Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode (rest stance) is needed to maximally extend the arm. The latter can still create interesting dynamics given transitioning between rest and standing stance is fast, and the rest stance suffers from lowering the flag mount height significantly
 
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
@@ -60,13 +60,17 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 ### Team idea
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
-    - arena size limited to balance the ace, perhaps 2.4 m x 1.8 m welding blanket (for example, [Amazon](https://www.amazon.de/PAWBOSE-Welding-Blanket-Silicone-Coated-Fibreglass))
-    - free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
+    - Arena size limited to balance the ace, perhaps 2.4 m x 1.8 m welding blanket (for example, [Amazon](https://www.amazon.de/PAWBOSE-Welding-Blanket-Silicone-Coated-Fibreglass))
+    - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
     - Each robot carries a flag, and the robot with its flag taken continues to be active on the field, but the robot exiting the arena is eliminated
-    - 10 min game. The team with the most flags left wins
-    - can be played under different terrains
+    - Up to 10 min game; the game ends with one team losing all flags. The team with the most flags left wins
+    - Can be played under different terrains
   * Perhaps allow multi-robot coordination codes
   * Perhaps allow CAD linkage between robots
+
+### Robot dimension reference
+
+  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance.
 
 ## References:
 
