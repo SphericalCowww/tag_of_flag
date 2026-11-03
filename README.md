@@ -60,6 +60,8 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 ### Team idea
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
+    - arena size limited to balance the ace
+    - free of initial positioning on your side of the arena
     - robot with flag taken continues to be active on the field
     - 10 min game. The team with the most flags left wins
     - can be played under different terrains
