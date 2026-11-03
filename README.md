@@ -61,7 +61,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
     - arena size limited to balance the ace, perhaps 274 cm x 152 cm like the table tennis court
-    - free of initial positioning on your side of the arena, probably decided before the game without giving knowledge to the opponent's team
+    - free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
     - each robot carries a flag, and the robot with its flag taken continues to be active on the field
     - 10 min game. The team with the most flags left wins
     - can be played under different terrains
