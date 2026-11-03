@@ -5,7 +5,7 @@ With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicD
 
 In developing the winning strategies, this game could enforce multiple engineering disciplines that are beneficial to the robotics community. I believe this game has the potential to be **a long-term educational and research platform and a worthwhile benchmark** to aim for.
 
-The following are some suggestive rules just to have a starting point.
+The following are some suggested rules just to have a starting point.
 
 ## V0 Rules
 
@@ -60,7 +60,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 ### Team idea
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
-    - arena size limited to balance the ace
+    - arena size limited to balance the ace, perhaps 274 cm x 152 cm like the table tennis court
     - free of initial positioning on your side of the arena, probably decided before the game without giving knowledge to the opponent's team
     - each robot carries a flag, and the robot with its flag taken continues to be active on the field
     - 10 min game. The team with the most flags left wins
