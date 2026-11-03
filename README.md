@@ -62,7 +62,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
     - arena size limited to balance the ace
     - free of initial positioning on your side of the arena, probably decided before the game without giving knowledge to the opponent's team
-    - robot with flag taken continues to be active on the field
+    - each robot carries a flag, and the robot with its flag taken continues to be active on the field
     - 10 min game. The team with the most flags left wins
     - can be played under different terrains
   * Perhaps allow multi-robot coordination codes
