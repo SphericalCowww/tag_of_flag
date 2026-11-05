@@ -42,7 +42,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 ### Game rules
 
   * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
-  * Deliberately damaging the other robot is not allowed. The robot bodies can push each other, but if the robot arm is verified to cause damage to electronics/servos parts, then the player loses the game
+  * Deliberately damaging the other robot is not allowed. The robot bodies can push each other, but if the robot arm is verified to damage electronics/servo parts deliberately, the player loses the game. However, the judge is difficult, so design to protect your vulnerable electronics!
   * Potential timeout of 5 min
 
 ### Potential tactics
