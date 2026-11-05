@@ -5,15 +5,13 @@ With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicD
 
 In developing the winning strategies, this game could enforce multiple engineering disciplines that are beneficial to the robotics community. I believe this game has the potential to be **a long-term educational and research platform and a worthwhile benchmark** to aim for.
 
-The following are some suggested rules just to have a starting point.
+The following are some suggested rules just to have as a starting point.
 
 ## V0 Rules
 
 ### Goal
 
 The goal of the game is very simple: 2 players each control a quadruped that starts with a flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena
-
-
 
 ### Arena/flag
 
@@ -43,7 +41,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
   * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
   * Deliberately damaging the other robot is not allowed. The robot bodies can push each other, but if the robot arm is verified to damage electronics/servo parts deliberately, the player loses the game. However, the judge is difficult, so design to protect your vulnerable electronics!
-  * Potential timeout of 5 min
+  * Timeout by battery? Maybe too long
 
 ### Potential tactics
 
@@ -52,7 +50,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
-Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode (rest stance) is needed to maximally extend the arm. The latter can still create interesting dynamics given transitioning between rest and standing stance is fast, and the rest stance suffers from lowering the flag mount height significantly
+Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode (rest stance) is needed to maximally extend the arm. The latter can still create interesting dynamics given that transitioning between rest and standing stance is fast, and the rest stance suffers from lowering the flag mount height significantly
 
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
