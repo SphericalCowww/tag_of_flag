@@ -37,6 +37,8 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * No wheels by default
   * No projectiles
 
+The robots are meant to be controlled by a person or two with a remote controller and an SO-101 leader arm. However, complete automation is also welcomed. 
+
 ### Game rules
 
   * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
