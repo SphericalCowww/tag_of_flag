@@ -19,8 +19,8 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Start position: opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
-  * Flag standard: a 3 8cm tall survey flag (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)), should be pretty lightweight
-  * Flag-mount standard: 3D-printed 8 cm height block, any shape within 3 cm diameter, as long as there is an 8 cm tall loose insert facing up. The bottom of the flag-mount should be within 4 cm in height of the height baseline
+  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
+  * Flag-mount standard: any shape as long as it has a clearance that is 8 cm tall with a 3 mm diameter. The bottom of the clearance must be within 3 cm in height of the height baseline. The clearance must point straight upward in the rest stance
 
 ### Robot requirements
 
