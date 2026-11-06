@@ -36,19 +36,19 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * The electronic boards must be covered by PLA protection at least from the top
   * No wheels by default
   * No projectiles
-  * No controller interference
+  * No controller interference (on the human controllers or through communication hacking)
 
 ### Game rules
 
   * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
   * The following are NOT allowed in deliberate damage to the opponent's robot:
-    - No tripping the legs
+    - No tripping/bending/twisting on the legs
     - No poking/smashing on the electronic boards/battery protections
     - No poking/smashing on the sensors
     - No pulling on the wires (must force pause when accidentally tangled)
     - ... to be exhausted
     - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification 
-  * The robot bodies can push each other, but if the robot arm is verified to damage electronics/servo parts deliberately, the player loses the game. However, the judge is difficult, so design to protect your vulnerable electronics!
+  * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. The arm-to-leg contact is prohibited
   * Timeout by battery? Maybe too long
 
 ### Potential tactics
