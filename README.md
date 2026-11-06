@@ -36,7 +36,6 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * The electronic boards must be covered by PLA protection at least from the top
   * No wheels by default
   * No projectiles
-  * No controller interference (on the human controllers or through communication hacking)
 
 ### Game rules
 
@@ -49,6 +48,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
     - ... to be exhausted
     - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification 
   * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. The arm-to-leg contact is prohibited
+  * No controller interference (on the human controllers or through communication hacking)
   * Timeout by battery? Maybe too long
 
 ### Potential tactics
