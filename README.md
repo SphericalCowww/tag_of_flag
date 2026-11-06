@@ -28,11 +28,12 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - also allow bearings, and the linkages are allowed to be non-PLA materials, but again only for connections
-    - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount when mounted. The only exception will be the moving parts of the arm
+    - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot. The only exception will be the moving parts of the arm
     - no hook or sharp structure on the arm 
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
   * Untethered using batteries
+  * The electronic boards must be covered by PLA protection at least from the top
   * No wheels by default
   * No projectiles
   * No controller interference
@@ -40,7 +41,13 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 ### Game rules
 
   * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
-  * Deliberately damaging the other robot is not allowed. The robot bodies can push each other, but if the robot arm is verified to damage electronics/servo parts deliberately, the player loses the game. However, the judge is difficult, so design to protect your vulnerable electronics!
+  * The following are NOT allowed in deliberate damage to the opponent's robot:
+    - No tripping the legs
+    - No poking/smashing on the electronic boards/battery protections
+    - No poking/smashing on the sensors
+    - No pulling on the wires (must force pause when accidentally tangled)
+    - ... to be exhausted
+  * The robot bodies can push each other, but if the robot arm is verified to damage electronics/servo parts deliberately, the player loses the game. However, the judge is difficult, so design to protect your vulnerable electronics!
   * Timeout by battery? Maybe too long
 
 ### Potential tactics
