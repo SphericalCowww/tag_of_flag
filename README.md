@@ -47,6 +47,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
     - No poking/smashing on the sensors
     - No pulling on the wires (must force pause when accidentally tangled)
     - ... to be exhausted
+    - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification 
   * The robot bodies can push each other, but if the robot arm is verified to damage electronics/servo parts deliberately, the player loses the game. However, the judge is difficult, so design to protect your vulnerable electronics!
   * Timeout by battery? Maybe too long
 
