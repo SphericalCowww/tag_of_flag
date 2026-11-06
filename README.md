@@ -48,7 +48,8 @@ The robots are meant to be controlled by a person or two with a remote controlle
     - No poking/smashing on the sensors
     - No pulling on the wires (must force pause when accidentally tangled)
     - ... to be exhausted
-    - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification 
+    - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification
+    - Breaking PLA parts extended out from the robot body for shielding is allowed
   * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. The arm-to-leg contact is prohibited
   * No interference with the opponent's human controller. No interference with the opponent's communication, control, or software systems, including hacking or jamming
   * Timeout by battery? Maybe too long
