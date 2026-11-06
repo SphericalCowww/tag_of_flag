@@ -37,7 +37,15 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * No wheels by default
   * No projectiles
 
-The robots are meant to be controlled by a person or two with a remote controller and an SO-101 leader arm. However, complete automation is also welcomed. 
+#### Controller requirements
+
+  * The budget should be controlled to < 500 EUR
+  * The controllers should be remote
+
+#### Recommendations
+
+  * Raspberry Pi 5 running Ubuntu 24.04 and ROS 2 Jazzy is the reference platform
+  * The robots are meant to be controlled by a person or two with a remote controller and an SO-101 leader arm. However, complete automation is also welcome
 
 ### Game rules
 
@@ -56,7 +64,7 @@ The robots are meant to be controlled by a person or two with a remote controlle
 ### Potential tactics
 
   * Use PLA shielding to protect the flag surround
-  * Control better manually to bypass the opponent's arm using the leader arm, made possible if the gait is nicely written
+  * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
 
