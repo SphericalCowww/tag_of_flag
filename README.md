@@ -45,6 +45,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
   * The budget should be controlled to < 500 EUR
   * The controllers should be remote
+  * The default is a controller for legs and a SO-101 leader arm for the arm. However, monitors for the on-board cameras are also allowed.
 
 #### Recommendations
 
