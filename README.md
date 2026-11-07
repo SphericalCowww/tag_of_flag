@@ -32,7 +32,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - also allow bearings, and the linkages are allowed to be non-PLA materials, but again only for connections
-    - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag insert. The only exception will be the moving parts of the arm. No part should touch the flag insert at the rest stance. 
+    - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag insert. The only exception will be the moving parts of the arm. No part should touch the flag insert at the rest stance
     - no hook or sharp structure on the arm 
   * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors up to 200 EUR are allowed, but watch out for potential damages
