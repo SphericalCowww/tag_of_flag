@@ -1,4 +1,7 @@
 # Tag of Flag (機甲奪旗賽)
+
+<img src="https://github.com/SphericalCowww/tag_of_flag/blob/main/demo261107.png" height="300">
+
 Proposing Tag of Flag as a game with 12-DOF quadrupeds carrying a 6-DOF arm. The goal is to capture the flag on the opponent team's quadruped's back.
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
