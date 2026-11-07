@@ -20,7 +20,7 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
-  * Flag-mount standard: any shape as long as it has a clearance that is 8 cm tall with a >= 6 mm diameter. The bottom of the clearance must be within 3 cm in height of the height baseline. The clearance must point straight upward in the rest stance
+  * Flag-mount standard: any shape as long as it has a clearance that is 4 cm tall with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
 
 ### Robot requirements
 
