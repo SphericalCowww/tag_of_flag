@@ -14,16 +14,17 @@ The following are some suggested rules just to have as a starting point.
 
 ### Goal
 
-The goal of the game is very simple: 2 players each control a quadruped that starts with a flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena
+The goal is simple: 2 players each control a quadruped that starts with a flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena
 
 ### Arena/flag
 
-  * Arena: a 1 m x 1 m fire blanket (for example, [Amazon](https://www.amazon.de/gp/aw/d/B0D1KLVQ5F)), or a 1.6 m x 1.8 m fire blanket (for example, [Amazon](https://www.amazon.de/-/en/Fire-Blanket-160-180-Kitchen/dp/B0DWRVCSNK))
-  * Start position: opposite ends of the arena facing each other
+  * Arena: a 2 m x 1 m treadmill mat (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX)). The robot exits the arena if one foot lands outside the arena
+  * Start position: long opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
   * Flag-mount standard: any shape as long as it has a clearance that is 4 cm tall with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
+  * **Fire Safety:** Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire
 
 ### Robot requirements
 
@@ -52,7 +53,6 @@ The goal of the game is very simple: 2 players each control a quadruped that sta
 
 ### Game rules
 
-  * For 1 m x 1 m arena, the robot exits the arena only if all landed feet are outside the arena; for 1.6 m x 1.8 m arena, the robot exits the arena if one foot lands outside the arena. The arena shifting around due to motion should be okay, but pause when folding
   * The following are NOT allowed in deliberate damage to the opponent's robot:
     - No tripping/bending/twisting on the legs
     - No poking/smashing on the electronic boards/battery protections
@@ -79,7 +79,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 ### Team idea
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
-    - Arena size limited to balance the ace, perhaps 2.4 m x 1.8 m welding blanket (for example, [Amazon](https://www.amazon.de/PAWBOSE-Welding-Blanket-Silicone-Coated-Fibreglass))
+    - Arena size limited to balance the ace, perhaps two 2 m x 1 m treadmill mats combined (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX))
     - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
     - Each robot carries a flag, and the robot with its flag taken continues to be active on the field, but the robot exiting the arena is eliminated
     - Up to 10 min game; the game ends with one team losing all flags. The team with the most flags left wins
