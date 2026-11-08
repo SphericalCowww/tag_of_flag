@@ -109,11 +109,35 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
 ### Budget calculation
 
-The PLA, bolts+nuts+washers, heat set inserts, glue, bearings, linkages, and gripping material on the feet are not accounted for in the budget. 
+The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, linkages, and gripping material on the feet are not accounted for in the budget. The rest of the items are listed below using the euro as a reference, but standardized so that it is not influenced by the actual price. The maximum budget is 1000 points.
+
+| Devices | Assigned Points | Reference Links | Comments |
+| - | - | - | - |
+| ST-3215 servos | 25 | | No matter the version |
+| Serial bus servo driver board | 5 |  |  |
+| Raspberry Pi | 150 |  |  |
+| USB hub | 10 |  |  |
+| Votage converters | 10 |  |  |
+| Lithium battery/power bank | 20 |  |  |
+| various sensors | - | - | TBD |
+
+So for CD-70B + SO-101 follower, it's ``150 + 10 + 12*25 + 2*5 + 10 + 2*20 + 6*25 + 10 = 680``. Still much room to reach 1000 for the sensors
 
 #### Controller 
 
-There is no budget limit for controllers
+There is no budget limit for controllers, but only the following are allowed for controllers,
+
+  * Tables and seats, placed at least 1 m away from the arena
+  * Any power sources, be it batteries, power banks, or just plugging into the wall
+  * A SO-101 leader arm, or one any other teleoperating arms
+  * Raspberry Pi's
+  * Custom handheld controllers (for Bluetooth, watch out for interference)
+  * A remote gaming controller
+  * A keyboards
+  * A mice
+  * A laptop
+  * A monitor, but bring one that can be easily carried
+  * No desktops are allowed
 
 ## References:
 
