@@ -16,6 +16,11 @@ The following are some suggested rules just to have as a starting point.
 
 The goal is simple: 2 players each control a quadruped that starts with a flag on its back. The player wins when the opponent's flag leaves the flag-mount in any way or when the opponent exits the arena
 
+### Safety
+
+    * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire
+    * Disabling servo stall shutdown is NOT allowed
+
 ### Arena/flag
 
   * Arena: a 2 m x 1 m treadmill mat (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX)). The robot exits the arena if one foot lands outside the arena
@@ -24,7 +29,6 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
   * Flag-mount standard: any shape as long as it has a clearance that is 4 cm tall with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
-  * **Fire Safety:** Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire
 
 ### Robot requirements
 
@@ -62,8 +66,15 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - ... to be exhausted
     - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification
   * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. The arm-to-leg contact is prohibited
-  * No interference with the opponent's human controller. No interference with the opponent's communication, control, or software systems, including hacking or jamming
-  * Timeout by battery? Maybe too long
+  * Recommended start sequence of each side stands up and rests one after another, then stands up and rests together to check controller interference
+    - No interference with the communication, control, or software systems, including hacking or jamming
+    - No interference with the human controllers in any way
+  * Each game timeout by 10 min:
+    - if the servo stalls during this time, the human controller cannot intervene until the game ends
+    - if both sides agree, can reset the game before 10 min
+    - if after 10 min and no side wins, the game resets
+    - can go for a best of 5. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
+
 
 ### Potential tactics
 
