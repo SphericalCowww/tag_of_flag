@@ -2,13 +2,13 @@
 
 <img src="https://github.com/SphericalCowww/tag_of_flag/blob/main/demo261107.png" height="300">
 
-Proposing Tag of Flag as a game with 12-DOF quadrupeds carrying a 6-DOF arm. The goal is to capture the flag on the opponent team's quadruped's back.
+Proposing Tag of Flag as a game with quadrupeds carrying an arm. The goal is to capture the flag on the back of the opponent's quadruped.
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
 In developing the winning strategies, this game could enforce multiple engineering disciplines that are beneficial to the robotics community. I believe this game has the potential to be **a long-term educational and research platform and a worthwhile benchmark** to aim for. Here is a link to the [subreddit](https://www.reddit.com/r/TagofFlag/) created.
 
-The following are some suggested rules just to have as a starting point.
+The following are suggested rules to have as a starting point.
 
 ## V0 Rules
 
@@ -18,8 +18,8 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Safety
 
-    * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire
-    * Disabling servo stall shutdown is NOT allowed
+   * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire
+   * Disabling servo stall shutdown is NOT allowed
 
 ### Arena/flag
 
@@ -29,17 +29,19 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
   * Flag-mount standard: any shape as long as it has a clearance that is 4 cm tall with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
+  * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
 ### Robot requirements
 
-  * 4x3-DOF quadruped with a 6-DOF arm using 12V ST-3215 servos. The budget should be controlled to < 1000 EUR
+  * 4x``N``-DOF quadruped with an ``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
-    - bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
-    - also allow bearings, and the linkages are allowed to be non-PLA materials, but again only for connections
-    - considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag insert. The only exception will be the moving parts of the arm. No part should touch the flag insert at the rest stance
-    - no hook or sharp structure on the arm 
-  * Controlled by ROS, but gait, automation, and reinforcement learning stack are completely free to optimize
-  * Sensors up to 200 EUR are allowed, but watch out for potential damages
+    - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
+    - Also allow bearings, and the linkages are allowed to be non-PLA materials, but again only for connections
+    - Allow gripping material only on the feet
+    - Considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag insert. The only exception will be the moving parts of the arm. No part should touch the flag insert at the rest stance
+    - No hook or sharp structure on the arm 
+  * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
+  * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
   * Untethered using batteries
   * The electronic boards must be covered by PLA protection at least from the top
   * No wheels by default
@@ -47,14 +49,19 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 #### Controller requirements
 
-  * The budget should be controlled to < 500 EUR
+  * The budget for the controller is unlimited, but see what is allowed in the "Budget calculation" section
   * The controllers should be remote
-  * The default is a controller for legs and a SO-101 leader arm for the arm. However, monitors for the on-board cameras are also allowed.
+  * During the game, the human operators should stand at least 1 m away from the arena
 
 #### Recommendations
 
-  * Raspberry Pi 5 running Ubuntu 24.04 and ROS 2 Jazzy is the reference platform
-  * The robots are meant to be controlled by a person or two with a remote controller and an SO-101 leader arm. However, complete automation is also welcome
+  * Standard ``N = 3`` and ``M = 6``, or a 12-DOF quadruped with a 6-DOF arm such as the SO-101 follower
+  * Raspberry Pi 5 running Ubuntu 24.04 and ROS 2 Jazzy as the reference platform
+  * The robots are meant to be controlled by one or two human operators with a remote controller and an SO-101 leader arm. However, complete automation is also welcome
+
+### Dimension reference
+
+  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance.
 
 ### Game rules
 
@@ -69,12 +76,13 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Recommended start sequence of each side stands up and rests one after another, then stands up and rests together to check controller interference
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
-  * Each game timeout by 10 min:
-    - if the servo stalls during this time, the human controller cannot intervene until the game ends
-    - if both sides agree, can reset the game before 10 min
-    - if after 10 min and no side wins, the game resets
-    - can go for a best of 5. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
-
+  * Each game times out after 10 min:
+    - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends
+    - If the sensors break, can call to pause the game to judge whether to continue or not
+    - If the wire falls off, can call to pause the game to reconnect the wires 
+    - If both sides agree, can reset the game before 10 min
+    - If after 10 min and no side wins, the game resets
+    - A best of 5 as standard. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
 
 ### Potential tactics
 
@@ -99,9 +107,13 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Perhaps allow multi-robot coordination codes
   * Perhaps allow CAD linkage between robots
 
-### Robot dimension reference
+### Budget calculation
 
-  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance.
+The PLA, bolts+nuts+washers, heat set inserts, glue, bearings, linkages, and gripping material on the feet are not accounted for in the budget. 
+
+#### Controller 
+
+There is no budget limit for controllers
 
 ## References:
 
