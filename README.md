@@ -38,7 +38,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - Also allow bearings and the linkages/spacers between bearings to be non-PLA materials, but again only for connections
     - Allow gripping material only on the feet
-    - Considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag insert. The only exception will be the moving parts of the arm. No part should touch the flag insert at the rest stance
+    - Considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag  insert. The only exception will be the moving parts of the arm. No part should overlap with the line of sight of the flag insert at the rest stance
     - No hook or sharp structure on the arm 
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
@@ -78,7 +78,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
   * Each game times out after 10 min:
-    - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends
+    - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends. Early resignation call is possible
     - If the sensors break, can call to pause the game to judge whether to continue or not
     - If the wire falls off, can call to pause the game to reconnect the wires 
     - If both sides agree, can reset the game before 10 min
