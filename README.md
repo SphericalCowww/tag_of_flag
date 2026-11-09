@@ -36,7 +36,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * 4x``N``-DOF quadruped with an ``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
-    - Also allow bearings, and the linkages are allowed to be non-PLA materials, but again only for connections
+    - Also allow bearings and the linkages/spacers between bearings to be non-PLA materials, but again only for connections
     - Allow gripping material only on the feet
     - Considering the shielding dimension, the CAD should not be built to be taller than the flag-mount on the robot to cover the flag insert. The only exception will be the moving parts of the arm. No part should touch the flag insert at the rest stance
     - No hook or sharp structure on the arm 
@@ -58,10 +58,11 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Standard ``N = 3`` and ``M = 6``, or a 12-DOF quadruped with a 6-DOF arm such as the SO-101 follower
   * Raspberry Pi 5 running Ubuntu 24.04 and ROS 2 Jazzy as the reference platform
   * The robots are meant to be controlled by one or two human operators with a remote controller and an SO-101 leader arm. However, complete automation is also welcome
+  * The rubber on the feet is really not necessary given the grip on the arena
 
-### Dimension reference
+#### Dimension reference
 
-  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance.
+  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance
 
 ### Game rules
 
@@ -96,9 +97,10 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
 
-### Team idea
+### Team prospect
 
   * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
+    - Ace must be a 4x3 DOF quadruped with the same required ST3215 servos. The motors for the feet can be any within a 1000 euro budget
     - Arena size limited to balance the ace, perhaps two 2 m x 1 m treadmill mats combined (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX))
     - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
     - Each robot carries a flag, and the robot with its flag taken continues to be active on the field, but the robot exiting the arena is eliminated
@@ -109,7 +111,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
 ### Budget calculation
 
-The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, linkages, and gripping material on the feet are not accounted for in the budget. The rest of the items are listed below using the euro as a reference, but standardized so that it is not influenced by the actual price. The maximum budget is 1000 points.
+The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not accounted for in the budget. The rest of the items are listed below using the euro as a reference, but standardized so that it is not influenced by the actual price. The maximum budget is 1000 points.
 
 | Devices | Assigned Points | Reference Links | Comments |
 | - | - | - | - |
