@@ -80,9 +80,10 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Each game times out after 10 min:
     - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends. Early resignation call is possible
     - If the sensors break, can call to pause the game to judge whether to continue or not
-    - If the wire falls off, can call to pause the game to reconnect the wires 
-    - If both sides agree, can reset the game before 10 min
-    - If after 10 min and no side wins, the game resets
+    - If the wire falls off, can call to pause the game to reconnect the wires
+    - The pause can be resumed by going back to the starting position without restarting the timer 
+    - If both sides agree, like if both sides have PLA parts break and servos stall, the game can be called to reset before 10 min, including resetting the timer
+    - If after 10 min and no side wins, the game resets. Can restart robot and/or fix broken PLA parts inbetween
     - A best of 5 as standard. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
 
 ### Potential tactics
