@@ -103,7 +103,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
 ### Team prospect
 
-  * A team of 4, potentially consisting of a single ace unit that is allowed to have wheels
+  * A team of 4. As an exception, each team can potentially host a single ace unit that is allowed to have wheels
     - Ace must be a 4x4 DOF quadruped with the same required ST3215 servos. Yes, the wheels also have to use ST3215 to not give it too much advantage and also not just a cart robot
     - Arena size limited to balance the ace, perhaps two 2 m x 1 m treadmill mats combined (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX))
     - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
