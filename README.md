@@ -101,18 +101,6 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
   * Note that no rule says the belly cannot contact the ground
   * Even if the leg is broken, the player is still in the game if the flag is still safe
 
-### Team prospect
-
-  * A team of 4. As an exception, each team can potentially host a single ace unit that is allowed to have wheels
-    - Ace must be a 4x4 DOF quadruped with the same required ST3215 servos. Yes, the wheels also have to use ST3215 to not give it too much advantage and also not just a cart robot
-    - Arena size limited to balance the ace, perhaps two 2 m x 1 m treadmill mats combined (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX))
-    - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
-    - Each robot carries a flag, and the robot with its flag taken continues to be active on the field, but the robot exiting the arena is eliminated
-    - Up to 10 min game; the game ends with one team losing all flags. The team with the most flags left wins
-    - Can be played under different terrains
-  * Perhaps allow multi-robot coordination codes
-  * Perhaps allow CAD linkage between robots
-
 ### Budget calculation
 
 The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not accounted for in the budget. The remaining items are listed below using the euro as a reference, but standardized so they are not influenced by the actual price. The maximum budget is 1000 points.
@@ -145,6 +133,18 @@ There is no budget limit for controllers, but only the following are allowed for
   * A laptop
   * A monitor, but bring one that can be easily carried
   * No desktops are allowed
+
+## V0 team game extension prospect
+
+  * A team of 4. As an exception, each team can potentially host a single ace unit that is allowed to have wheels
+    - Ace must be a 4x4 DOF quadruped with the same required ST3215 servos. Yes, the wheels also have to use ST3215 to not give it too much of an advantage and also not just a cart robot
+    - Arena size limited to balance the ace, perhaps two 2 m x 1 m treadmill mats combined (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX))
+    - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
+    - Each robot carries a flag, and the robot with its flag taken continues to be active on the field, but the robot exiting the arena is eliminated
+    - Up to 10 min game; the game ends with one team losing all flags. The team with the most flags left wins
+    - Can be played under different terrains
+  * Perhaps allow multi-robot coordination codes
+  * Perhaps allow CAD linkage between robots
 
 ## References:
 
