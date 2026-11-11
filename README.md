@@ -115,7 +115,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
 ### Budget calculation
 
-The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not accounted for in the budget. The rest of the items are listed below using the euro as a reference, but standardized so that it is not influenced by the actual price. The maximum budget is 1000 points.
+The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not accounted for in the budget. The remaining items are listed below using the euro as a reference, but standardized so they are not influenced by the actual price. The maximum budget is 1000 points.
 
 | Devices | Assigned Points | Reference Links | Comments |
 | - | - | - | - |
@@ -127,7 +127,7 @@ The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inser
 | Lithium battery/power bank | 20 |  |  |
 | various sensors | - | - | TBD |
 
-So for CD-70B + SO-101 follower, it's ``150 + 10 + 12*25 + 2*5 + 10 + 2*20 + 6*25 + 10 = 680``. Still much room to reach 1000 for the sensors
+So for CD-70B + SO-101 follower, it's ``(12*25 + 2*5) + (6*25 + 5) + 150 + 10 + 10 + 2*20 = 675``. Still much room to reach 1000 for the sensors
 
 #### Controller 
 
@@ -136,11 +136,11 @@ There is no budget limit for controllers, but only the following are allowed for
   * Tables and seats, placed at least 1 m away from the arena
   * Any power sources, be it batteries, power banks, or just plugging into the wall
   * A SO-101 leader arm, or one any other teleoperating arms
-  * Raspberry Pi's
+  * A Raspberry Pi
   * Custom handheld controllers (for Bluetooth, watch out for interference)
   * A remote gaming controller
-  * A keyboards
-  * A mice
+  * A keyboard
+  * A mouse
   * A laptop
   * A monitor, but bring one that can be easily carried
   * No desktops are allowed
