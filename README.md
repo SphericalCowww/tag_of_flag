@@ -46,6 +46,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * The electronic boards must be covered by PLA protection at least from the top
   * No wheels by default
   * No projectiles
+  * Let's avoid custom PCBs as the budget is difficult to judge
 
 #### Controller requirements
 
