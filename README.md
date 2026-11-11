@@ -84,7 +84,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - If the sensors break, can call to pause the game to judge whether to continue or not
     - If the wire falls off, can call to pause the game to reconnect the wires
     - If the controllers lose control, can call to pause the game to judge whether to continue or not
-    - The pause can be resumed by going back to the starting position without restarting the timer
+    - The pause can be resumed by going back to the starting position without restarting the timer. In a refereed game, repeated false pauses could introduce a 5-second delayed-start penalty determined by the referee
     - If both sides agree, like if both sides have PLA parts break and servos stall, the game can be called to reset before 10 min, including resetting the timer
     - If after 10 min and no side wins, the game resets. Can restart robot and/or fix broken PLA parts in between
     - A best of 5 as standard. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
