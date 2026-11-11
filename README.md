@@ -18,7 +18,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Safety
 
-   * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire
+   * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire. Preferably with a fire blanket as well; drag the robot on the blanket with the tong if needed
    * Disabling servo stall shutdown is NOT allowed
 
 ### Arena/flag
@@ -84,7 +84,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - If the sensors break, can call to pause the game to judge whether to continue or not
     - If the wire falls off, can call to pause the game to reconnect the wires
     - If the controllers lose control, can call to pause the game to judge whether to continue or not
-    - The pause can be resumed by going back to the starting position without restarting the timer. A false pause would receive a 5-second delayed-start penalty
+    - The pause can be resumed by going back to the starting position without restarting the timer
     - If both sides agree, like if both sides have PLA parts break and servos stall, the game can be called to reset before 10 min, including resetting the timer
     - If after 10 min and no side wins, the game resets. Can restart robot and/or fix broken PLA parts in between
     - A best of 5 as standard. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
@@ -103,7 +103,7 @@ Depending on the actual performance when improved to the ST3215's limits, the ga
 
 ### Team prospect
 
-  * Perhaps a team of 4, with only 1 as the ace that is allowed to have wheels
+  * A team of 4, potentially consisting of a single ace unit that is allowed to have wheels
     - Ace must be a 4x4 DOF quadruped with the same required ST3215 servos. Yes, the wheels also have to use ST3215 to not give it too much advantage and also not just a cart robot
     - Arena size limited to balance the ace, perhaps two 2 m x 1 m treadmill mats combined (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX))
     - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
