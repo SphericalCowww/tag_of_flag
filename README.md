@@ -1,4 +1,4 @@
-# Tag of Flag (機甲奪旗賽)
+# Tag of Flag 機甲奪旗賽
 
 ### Tag of Flag: Engineer to win! Arms and legs, a robot game with many strategies waiting to be explored
 
