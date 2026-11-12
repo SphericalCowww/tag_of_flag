@@ -95,15 +95,12 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
-
-Depending on the actual performance when improved to the ST3215's limits, the game probably resembles less of a dogfight, but a naval duel that some type of anchor-mode (rest stance) is needed to maximally extend the arm. The latter can still create interesting dynamics given that transitioning between rest and standing stance is fast, and the rest stance suffers from lowering the flag mount height significantly
-
-  * Note that no rule says the belly cannot contact the ground
-  * Even if the leg is broken, the player is still in the game if the flag is still safe
+  * Note that no rule says the belly cannot contact the ground, so an anchor mode is possible to maximally extend the arm
+  * Even if the PLA on a leg breaks, the player is still in the game as long as the flag is still safe
 
 ### Budget calculation
 
-The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not accounted for in the budget. The remaining items are listed below using the euro as a reference, but standardized so they are not influenced by the actual price. The maximum budget is 1000 points.
+The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not included in the budget. The remaining items are listed below using the euro as a reference, but standardized so they are not influenced by the actual price. The maximum budget is 1000 points.
 
 | Devices | Assigned Points | Reference Links | Comments |
 | - | - | - | - |
