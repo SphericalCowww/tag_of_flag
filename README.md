@@ -52,7 +52,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 #### Controller requirements
 
-  * The budget for the controller is unlimited, but see what is allowed in the "Budget calculation" section
+  * The controller setup is not price-limited; its scope is defined by the items specified in the Budget Calculation section
   * The controllers should be remote
   * During the game, the human operators should stand at least 1 m away from the arena
   * Please don't let the controller run out of power
@@ -97,7 +97,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
-  * Note that no rule says the belly cannot contact the ground, so an anchor mode is possible to maximally extend the arm
+  * Note that no rule says the belly cannot contact the ground, so an "anchor" stance is possible to maximally extend the arm
   * Even if the PLA on a leg breaks, the player is still in the game as long as the flag is still safe
 
 ### Budget calculation
@@ -115,7 +115,7 @@ The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inser
 | other controller boards | - | - | TBD |
 | various sensors | - | - | TBD |
 
-So for CD-70B + SO-101 follower, it's ``(12*25 + 2*5) + (6*25 + 5) + 150 + 10 + 10 + 2*20 = 675``. Still much room to reach 1000 for the sensors
+So for CD-07B + SO-101 follower, it's ``(12*25 + 2*5) + (6*25 + 5) + 150 + 10 + 10 + 2*20 = 675``. Still much room to reach 1000 for the sensors
 
 #### Controller 
 
