@@ -1,5 +1,7 @@
 # Tag of Flag (機甲奪旗賽)
 
+**Tag of Flag: Engineer to win! Arms and legs, a robot game with many strategies waiting to be explored.**
+
 <img src="https://github.com/SphericalCowww/tag_of_flag/blob/main/demo261107.png" height="300">
 
 Proposing Tag of Flag as a game with quadrupeds carrying an arm. The goal is to capture the flag on the back of the opponent's quadruped.
