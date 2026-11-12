@@ -30,7 +30,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
-  * Flag-mount standard: any shape as long as it has a clearance that is 4 cm tall with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
+  * Flag-mount standard: any shape as long as it has a clearance that is no taller than 4 cm with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
 ### Robot requirements
@@ -81,14 +81,14 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Recommended start sequence of each side stands up and rests one after another, then stands up and rests together to check controller interference
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
-  * Each game times out after 10 min:
+  * Each game times out after 5 min:
     - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends. Early resignation call is possible
     - If the sensors break, can call to pause the game to judge whether to continue or not
     - If the wire falls off, can call to pause the game to reconnect the wires
     - If the controllers lose control, can call to pause the game to judge whether to continue or not
     - The pause can be resumed by going back to the starting position without restarting the timer. In a refereed game, repeated false pauses could introduce a 5-second delayed-start penalty determined by the referee
-    - If both sides agree, like if both sides have PLA parts break and servos stall, the game can be called to reset before 10 min, including resetting the timer
-    - If after 10 min and no side wins, the game resets. Can restart robot and/or fix broken PLA parts in between
+    - If both sides agree, like if both sides have PLA parts break and servos stall, the game can be called to reset before 5 min, including resetting the timer
+    - If after 5 min and no side wins, the game resets. Can restart robot and/or fix broken PLA parts in between
     - A best of 5 as standard. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
 
 ### Potential tactics
