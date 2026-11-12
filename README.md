@@ -6,7 +6,9 @@ Proposing Tag of Flag as a game with quadrupeds carrying an arm. The goal is to 
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
-In developing winning strategies, this game could reinforce multiple engineering disciplines that benefit the robotics community. I believe this game has the potential to be **an educational experience with a fun competitive challenge, as well as a long-term open research platform with a worthwhile common objective**. Here is a link to the [subreddit](https://www.reddit.com/r/TagofFlag/) that was created.
+In developing winning strategies, this game could reinforce multiple engineering disciplines that benefit the robotics community. I believe this game has the potential to be **an educational experience with a fun competitive challenge, as well as a long-term open research platform with a worthwhile common objective**. 
+
+Here is a link to the [subreddit](https://www.reddit.com/r/TagofFlag/) that was created.
 
 The following are suggested rules to have as a starting point.
 
