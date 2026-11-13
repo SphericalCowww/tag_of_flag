@@ -84,7 +84,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
   * Each game times out after 5 min:
-    - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends. Early resignation call is possible
+    - If the servo stalls or the PLA parts break (flag-mount included) during this time, the human controller cannot intervene until the game ends. Early resignation call is possible for a reset
     - If the sensors break, can call to pause the game to judge whether to continue or not
     - If the wire falls off, can call to pause the game to reconnect the wires
     - If the controllers lose control, can call to pause the game to judge whether to continue or not
