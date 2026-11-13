@@ -27,7 +27,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Arena/flag
 
-  * Arena: a 2 m x 1 m treadmill mat (for example, [Amazon](https://www.amazon.de/-/en/gp/product/B0GFDWTKKX)). The robot exits the arena if one foot lands outside the arena
+  * Arena: a 2 m x 2 m picnic blanket (for example, [Amazon](https://www.amazon.de/Amazon-Basics-Picnic-Blanket-Waterproof/dp/B07WGHKR2S)). The robot exits the arena if one foot lands outside the arena
   * Start position: long opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
