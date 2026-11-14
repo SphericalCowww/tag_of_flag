@@ -95,7 +95,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Potential tactics
 
-  * 
+  * Overarm space: the arm positioned above the opponent's arm has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the arm underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk tipping the own robot over. The meta could revolve around poking to contest the overarm space with as little extension as possible, which forces the opponent to react
   * Use PLA shielding to protect the flag, but note that the vertical height cannot be taller than the flag-mount
   * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
