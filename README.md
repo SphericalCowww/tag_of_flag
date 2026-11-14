@@ -95,7 +95,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * The payload of the legged robot is more than 1 kg (tested without the arm: [Reddit](https://www.reddit.com/r/robotics/comments/1xh34ti/cubic_doggo_update_wouf_walking_with_1kg_22lb/))
   * The endurance of the battery can likely last more than 30 min (tested without the arm: [Reddit](https://www.reddit.com/r/robotics/comments/1xkmeok/cubic_doggo_test_woufs_spooky_endorance_test/))
   * The arm can be extended relatively stably in the horizontal direction while the robot is walking (tested with unpowered arm, extended by human hand: [Reddit](https://www.reddit.com/r/robotics/comments/1xoc79f/cubic_doggo_test_wouf_walks_along_wholly/))
-  * The flag on the pole is actually rather stable; it likely needs the gripper to lock on the pole, then pull or swipe to the side to remove (tested without opponent: [Reddit](https://www.reddit.com/r/ROS/comments/1xr150k/tag_of_flag_the_concept_demo/)). In other words, losing the flag by walking is unlikely, but it can be lost by the robot tipping or being knocked off by the player's own arm
+  * The flag on the pole is actually rather stable; it likely needs the opponent robot's gripper to lock on the pole, then pull or swipe to the side to remove (tested without opponent: [Reddit](https://www.reddit.com/r/ROS/comments/1xr150k/tag_of_flag_the_concept_demo/)). In other words, losing the flag by walking is unlikely, but it can be lost by the robot tipping or being knocked off by the player's own arm
 
 ### Potential tactics
 
