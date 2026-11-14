@@ -31,7 +31,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Start position: long opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
-  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)). The pole is typically a flexible metal rod, which prevents excessive drag on the robot and damage to the flag mount 
+  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)). The pole is typically a flexible metal rod, which prevents excessive drag on the robot and damage to the flag mount. Probably best to get from a referee if available, however, as the pole could be a bit bent
   * Flag-mount standard: The flag mount should be made of PLA but can have any shape, provided that it incorporates a blind cylindrical clearance hole with an internal diameter of at least 6 mm and a depth of no more than 40 mm. The 1.5 mm flag pole should be loosely inserted into this clearance hole without clamping or fastening. No solid structure should extend above the top of the clearance. The bottom of the clearance hole should be no more than 80 mm above the height baseline, defined by the ground plane when the robot is in its designated rest stance. The clearance-hole axis must point vertically upward in the rest stance.
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
@@ -66,10 +66,6 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * The robots are meant to be controlled by one or two human operators with a remote controller and an SO-101 leader arm. However, complete automation is also welcome
   * The rubber on the feet is really not necessary given the grip on the arena
 
-#### Dimension reference
-
-  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance
-
 ### Game rules
 
   * The following are NOT allowed in deliberate damage to the opponent's robot:
@@ -93,9 +89,17 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - If after 5 min and no side wins, the game resets. Can restart robot and/or fix broken PLA parts in between
     - A best of 5 as standard. During the full duration of these games, the battery cannot be recharged. For extended draws, the side whose battery runs out first, such that the controller communication is lost, loses
 
+#### Specification References
+
+  * ([CD-07B](https://github.com/SphericalCowww/CubicDoggo_07B)) is around 30 cm wide and 40 cm long, with the baseline height at 5.5 cm in rest stance and at 14 cm in standing stance
+  * The payload of the legged robot is more than 1 kg (tested without the arm: [Reddit](https://www.reddit.com/r/robotics/comments/1xh34ti/cubic_doggo_update_wouf_walking_with_1kg_22lb/))
+  * The endurance of the battery can likely last more than 30 min (tested without the arm: [Reddit](https://www.reddit.com/r/robotics/comments/1xkmeok/cubic_doggo_test_woufs_spooky_endorance_test/))
+  * The arm can be extended relatively stably in the horizontal direction while the robot is walking (tested with unpowered arm, extended by human hand: [Reddit](https://www.reddit.com/r/robotics/comments/1xoc79f/cubic_doggo_test_wouf_walks_along_wholly/))
+  * The flag on the pole is actually rather stable; it likely needs to be locked into the gripper to pull out (tested without opponent: [Reddit](https://www.reddit.com/r/ROS/comments/1xr150k/tag_of_flag_the_concept_demo/)). In other words, losing the flag by walking is unlikely, but it can be lost by the robot tipping or being knocked off by the player's own arm
+
 ### Potential tactics
 
-  * Overarm space: the arm positioned above the opponent's arm has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the arm underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk tipping the own robot over. The meta could revolve around poking to contest the overarm space with as little extension as possible and then rush in to capture the flag, which forces the opponent to react
+  * Overarm space: the gripper positioned above the opponent's gripper has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the gripper underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk tipping player's own robot over. The meta could revolve around poking to contest the overarm space with as little extension as possible and then rushing in to capture the flag, which forces the opponent to react
   * Use PLA shielding to protect the flag, but note that the vertical height cannot be taller than the flag-mount
   * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
