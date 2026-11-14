@@ -75,7 +75,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - No pulling on the wires (must force pause when accidentally tangled)
     - ... to be exhausted
     - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification
-  * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. The arm-to-leg contact is prohibited
+  * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. Deliberate arm-to-leg contact is prohibited
   * Recommended start sequence of each side stands up and rests one after another, then stands up and rests together to check controller interference
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
