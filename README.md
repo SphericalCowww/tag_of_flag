@@ -99,7 +99,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Potential tactics
 
-  * Overarm space: the gripper positioned above the opponent's gripper has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the gripper underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk toppling the player's own robot over. The meta could revolve around poking to contest the overarm space with as little extension as possible and then rushing in to capture the flag, which forces the opponent to react
+  * Overarm space: the gripper positioned above the opponent's gripper has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the gripper underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk toppling the player's own robot over (have to be very far extended to topple by the player's own control, but can potentially be induced by the opponent's wrestling move, though likely an uncommon event). The meta could revolve around poking to contest the overarm space with as little extension as possible and then rushing in to capture the flag, which forces the opponent to react
   * Use PLA shielding to protect the flag, but note that the vertical height cannot be taller than the flag-mount
   * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
