@@ -31,8 +31,8 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Start position: long opposite ends of the arena facing each other
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
-  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
-  * Flag-mount standard: The flag mount may have any shape or construction, provided that it incorporates a blind cylindrical clearance hole with an internal diameter of at least 6 mm and a depth of no more than 40 mm. The 1.5 mm flag pole should be loosely inserted into this clearance hole without clamping or fastening. No solid structure should extend above the top of the clearance. The bottom of the clearance hole should be no more than 80 mm above the height baseline, defined by the ground plane when the robot is in its designated rest stance. The clearance-hole axis must point vertically upward in the rest stance.
+  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)). The pole is typically a flexible metal rod, which prevents excessive drag on the robot and damage to the flag mount 
+  * Flag-mount standard: The flag mount should be made of PLA but can have any shape, provided that it incorporates a blind cylindrical clearance hole with an internal diameter of at least 6 mm and a depth of no more than 40 mm. The 1.5 mm flag pole should be loosely inserted into this clearance hole without clamping or fastening. No solid structure should extend above the top of the clearance. The bottom of the clearance hole should be no more than 80 mm above the height baseline, defined by the ground plane when the robot is in its designated rest stance. The clearance-hole axis must point vertically upward in the rest stance.
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
 ### Robot requirements
@@ -95,7 +95,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Potential tactics
 
-  * Overarm space: the arm positioned above the opponent's arm has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the arm underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk tipping the own robot over. The meta could revolve around poking to contest the overarm space with as little extension as possible, which forces the opponent to react
+  * Overarm space: the arm positioned above the opponent's arm has a distinct advantage of having direct line of sight to the flag (because the flag is 38cm tall), while the arm underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk tipping the own robot over. The meta could revolve around poking to contest the overarm space with as little extension as possible and then rush in to capture the flag, which forces the opponent to react
   * Use PLA shielding to protect the flag, but note that the vertical height cannot be taller than the flag-mount
   * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
