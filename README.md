@@ -32,7 +32,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
-  * Flag-mount standard: any shape as long as it has a clearance that is no taller than 4 cm with a >= 6 mm diameter; the 1.5 mm flag pole is loosely placed in this cylindrical clearance. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
+  * Flag-mount standard: The flag mount may have any shape or construction, provided that it incorporates a blind cylindrical clearance hole with an internal diameter of at least 6 mm and a depth of no more than 40 mm. The 1.5 mm flag pole should be loosely inserted into this clearance hole without clamping or fastening. No solid structure should extend above the top of the clearance. The bottom of the clearance hole should be no more than 80 mm above the height baseline, defined by the ground plane when the robot is in its designated rest stance. The clearance-hole axis must point vertically upward in the rest stance.
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
 ### Robot requirements
@@ -42,7 +42,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - Also allow bearings and the linkages/spacers between bearings to be non-PLA materials, but again only for connections
     - Allow gripping material only on the feet
-    - Considering the shielding dimension, the CAD should not be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
+    - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
     - No hook or sharp structure on the arm 
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
   * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
@@ -95,8 +95,9 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Potential tactics
 
-  * Use PLA shielding to protect the flag surround
-  * Control better manually to bypass the opponent's arm, made possible if the gait is nicely written
+  * 
+  * Use PLA shielding to protect the flag, but note that the vertical height cannot be taller than the flag-mount
+  * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
   * Note that no rule says the belly cannot contact the ground, so an "anchor" stance is possible to maximally extend the arm
