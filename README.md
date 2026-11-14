@@ -14,7 +14,7 @@ The following are suggested rules to have as a starting point.
 
 ## V0 Rules
 
-### Arms and legs, a robot game with many strategies to be explored. Engineer to win!
+### Arms and legs: exploring a world of strategies in this robot game. Engineer and control to win!
 
 ### Goal
 
@@ -32,7 +32,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Height baseline: the top of the battery pack
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ))
-  * Flag-mount standard: any shape as long as it has a clearance that is no taller than 4 cm with a >= 6 mm diameter. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
+  * Flag-mount standard: any shape as long as it has a clearance that is no taller than 4 cm with a >= 6 mm diameter; the 1.5 mm flag pole is loosely placed in this cylindrical clearance. The bottom of the clearance must be within 8 cm in height of the height baseline. The clearance must point straight upward in the rest stance
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
 ### Robot requirements
