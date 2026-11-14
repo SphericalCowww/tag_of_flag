@@ -43,14 +43,16 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - Also allow bearings and the linkages/spacers between bearings to be non-PLA materials, but again only for connections
     - Allow gripping material only on the feet
     - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
-    - No hook or sharp structure on the arm 
+    - No hook or sharp structure on the arm
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
+  * While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
   * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
   * Untethered using batteries
   * The electronic boards must be covered by PLA protection at least from the top
   * No wheels by default
   * No projectiles
   * Let's avoid custom PCBs as the budget is difficult to judge
+
 
 #### Controller requirements
 
