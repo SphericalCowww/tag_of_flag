@@ -2,11 +2,11 @@
 
 <img src="https://github.com/SphericalCowww/tag_of_flag/blob/main/demo261107.png" height="300">
 
-Proposing Tag of Flag as a game with quadrupeds carrying an arm. The goal is to capture the flag on the back of the opponent's quadruped.
+Proposing Tag of Flag (ToF) as a game with quadrupeds carrying an arm. The goal is to capture the flag on the back of the opponent's quadruped.
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
-In developing winning strategies, this game could reinforce multiple engineering disciplines that benefit the robotics community. I believe this game has the potential to be **an educational experience with a spectacular competitive challenge, as well as a long-term open research platform with a worthwhile common objective**. 
+In developing winning strategies, this game could reinforce multiple engineering disciplines that benefit the robotics community. I believe this game has the potential to be **an educational experience with a spectacular competitive challenge, as well as a long-term open research platform with a worthwhile common goal.** The goal, for instance, could be to train a reinforcement learning (RL) agent to compete against a human operator and learn to win at ToF.
 
 Here is a link to the [subreddit](https://www.reddit.com/r/TagofFlag/) that was created.
 
@@ -24,6 +24,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
    * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire. Preferably with a fire blanket as well; drag the robot on the blanket with the tong if needed
    * Disabling servo stall shutdown is NOT allowed
+   * The batteries should be equipped with a battery management system (BMS), check the commercial specification
 
 ### Arena/flag
 
@@ -41,18 +42,19 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - Also allow bearings and the linkages/spacers between bearings to be non-PLA materials, but again only for connections
+    - Allow insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, and zip ties. Other tape types are not allowed (let's skip duct tapes, shall we, they are too strong)
     - Allow gripping material only on the feet
     - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
     - No hook or sharp structure on the arm
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
+    - remember to set a unique ``ROS_DOMAIN_ID`` to avoid ROS control interference
   * While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
   * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
   * Untethered using batteries
   * The electronic boards must be covered by PLA protection at least from the top
+  * Let's avoid custom PCBs, as the budget is difficult to judge
   * No wheels by default
   * No projectiles
-  * Let's avoid custom PCBs as the budget is difficult to judge
-
 
 #### Controller requirements
 
@@ -111,7 +113,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Budget calculation
 
-The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, and gripping material on the feet are not included in the budget consideration. Adapter devices such as voltage converters and USB hubs are also not to be included.
+The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, zip ties, and gripping material on the feet are not included in the budget consideration. Adapter devices such as voltage converters, USB hubs, and BSMs are also not to be included.
 
 The remaining items are listed below using the euro as a reference, but standardized so they are not influenced by the actual price. The maximum budget is 1000 points. The following is the list to be expanded,
 
