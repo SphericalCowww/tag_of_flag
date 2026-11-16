@@ -41,7 +41,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * 4x``N``-DOF quadruped with an ``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
-    - Also allow bearings and the linkages/spacers between bearings to be non-PLA materials, but again only for connections
+    - Allow bearings and the linkages/spacers/springs between bearings to be non-PLA materials, but again only for connections
     - Allow insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, and zip ties. Other tape types are not allowed (let's skip duct tapes, shall we, they are too strong)
     - Allow gripping material only on the feet
     - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
@@ -113,7 +113,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Budget calculation
 
-The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, bearing-linkages/-spacers, insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, zip ties, and gripping material on the feet are not included in the budget consideration. Adapter devices such as voltage converters, USB hubs, and BSMs are also not to be included.
+The PLA parts, wires and soldering materials, bolts+nuts+washers, heat set inserts, glue, bearings, linkages/spacers/springs between bearings, insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, zip ties, and gripping material on the feet are not included in the budget consideration. Adapter devices such as voltage converters, USB hubs, and BSMs are also not to be included.
 
 The remaining items are listed below using the euro as a reference, but standardized so they are not influenced by the actual price. The maximum budget is 1000 points. The following is the list to be expanded,
 
@@ -135,14 +135,16 @@ There is no budget limit for controllers, but only the following are allowed for
   * Tables and seats, placed at least 1 m away from the arena
   * Any power sources, be it batteries, power banks, or just plugging into the wall
   * A SO-101 leader arm, or one any other teleoperating arms
-  * A Raspberry Pi
-  * Custom handheld controllers (for Bluetooth, watch out for interference)
-  * A remote gaming controller
+  * A Raspberry Pi, or any custom handheld controllers 
+  * A remote gaming controller 
+  * A smartphone
   * A keyboard
   * A mouse
   * A laptop
   * A monitor, but bring one that can be easily carried
   * No desktops are allowed
+
+Watch out for interference in general, especially with Bluetooth
 
 ## V0 team game extension prospect
 
