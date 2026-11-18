@@ -114,7 +114,7 @@ Run the robot and use the following to check if the domain is properly set (defa
   * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
-  * Note that no rule says the belly cannot contact the ground, so an "anchor" stance is possible to maximally extend the arm
+  * Note that no rule says the belly cannot contact the ground, so an "anchor" stance is possible to maximally extend the arm, while risking lowering the flag mount
   * Even if the PLA on a leg breaks, the player is still in the game as long as the flag is still safe
 
 ### Budget calculation
