@@ -39,13 +39,15 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 ### Robot requirements
 
   * 4x``N``-DOF quadruped with an ``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
+    - For the arm, let's always keep the gripper: at least 1-DOF should be reserved for a gripper at the end effector of the arm. No hook or sharp structure on the arm
+    - While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
+    - Untethered using batteries
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
     - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
     - Allow bearings and the linkages/spacers/springs between bearings to be non-PLA materials, but again only for connections
     - Allow insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, and zip ties. Other tape types are not allowed (let's skip duct tapes, shall we, they are too strong)
     - Allow gripping material only on the feet
     - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
-    - No hook or sharp structure on the arm
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
     - remember to set a unique ``ROS_DOMAIN_ID`` to avoid ROS control interference. 
       
@@ -53,9 +55,7 @@ Run the robot and use the following to check if the domain is properly set (defa
 
     sudo cat /proc/$(pgrep -f '/joy/joy_node' | head -n 1)/environ | tr '\0' '\n' | grep -E 'ROS_DOMAIN_ID|ROS_AUTOMATIC_DISCOVERY_RANGE'
 
-  * While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
   * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
-  * Untethered using batteries
   * The electronic boards must be covered by PLA protection at least from the top
   * Let's avoid custom PCBs, as the budget is difficult to judge
   * No wheels by default
