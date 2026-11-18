@@ -47,7 +47,12 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
     - No hook or sharp structure on the arm
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
-    - remember to set a unique ``ROS_DOMAIN_ID`` to avoid ROS control interference
+    - remember to set a unique ``ROS_DOMAIN_ID`` to avoid ROS control interference. 
+      
+Run the robot and use the following to check if the domain is properly set (default is SUBNET, which connects all local network):
+
+    sudo cat /proc/$(pgrep -f '/joy/joy_node' | head -n 1)/environ | tr '\0' '\n' | grep -E 'ROS_DOMAIN_ID|ROS_AUTOMATIC_DISCOVERY_RANGE'
+
   * While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
   * Sensors such as IMU, camera, and LIDAR are all allowed up to the budget, but watch out for potential damages
   * Untethered using batteries
