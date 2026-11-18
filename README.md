@@ -84,7 +84,7 @@ Run the robot and use the following to check if the domain is properly set (defa
     - No pulling on the wires (must force pause when accidentally tangled)
     - ... to be exhausted
     - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification
-  * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts. Deliberate arm-to-leg contact is prohibited
+  * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts; when in doubt, don't do it, as this is for far extended PLA structures. Deliberate arm-to-leg contact is prohibited
   * Recommended start sequence of each side stands up and rests one after another, then stands up and rests together to check controller interference
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
