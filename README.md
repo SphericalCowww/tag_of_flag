@@ -28,7 +28,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Arena/flag
 
-  * Arena: a 2 m x 2 m picnic blanket (for example, [Amazon](https://www.amazon.de/Amazon-Basics-Picnic-Blanket-Waterproof/dp/B07WGHKR2S)). The robot exits the arena if one foot lands outside the arena
+  * Arena: a 1.5 m x 2 m picnic blanket (for example, [Amazon](https://www.amazon.de/Blanket-Waterproof-Portable-Sandproof-Insulated/dp/B0BZFPB2CX)). The robot exits the arena if one foot lands outside the arena
   * Start position: long opposite ends of the arena facing each other
   * Height baseline: the top of the battery
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
@@ -156,7 +156,7 @@ Watch out for interference in general, especially with Bluetooth
 
   * A team of 4. As an exception, each team can potentially host a single ace unit that is allowed to have wheels
     - Ace must be a 4x4 DOF quadruped with the same required ST3215 servos. Yes, the wheels also have to use ST3215 to not give it too much of an advantage and also not just a cart robot
-    - Arena size limited to balance the ace, perhaps leaving the same 2 m x 2 m arena
+    - Arena size limited to balance the Ace with a 2 m x 2 m arena [Amazon](https://www.amazon.de/Amazon-Basics-Picnic-Blanket-Waterproof/dp/B07WGHKR2S)
     - Free of initial positioning on your side of the arena. Sequential placement with a coin flip to decide who goes first, and the ace is placed first
     - Each robot carries a flag, and the robot with its flag taken continues to be active on the field, but the robot exiting the arena is eliminated
     - Up to 10 min game; the game ends with one team losing all flags. The team with the most flags left wins
