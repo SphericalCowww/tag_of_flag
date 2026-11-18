@@ -38,7 +38,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
 ### Robot requirements
 
-  * 4x``N``-DOF quadruped with an ``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
+  * 4x``N``-DOF quadruped with 1x``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
     - For the arm, let's always keep the gripper: at least 1-DOF should be reserved for a gripper at the end effector of the arm. No hook or sharp structure on the arm
     - While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
     - Untethered using batteries
@@ -108,8 +108,9 @@ Run the robot and use the following to check if the domain is properly set (defa
 
 ### Potential tactics
 
-  * Overarm space: the gripper positioned above the opponent's gripper has a distinct advantage of having direct line of sight to the flag (because the flag is 38 cm tall), while the gripper underneath is blocked by the opponent robot's body and the trunk of the arm. However, being too far extended can result in a large lever and risk toppling the player's own robot over (have to be very far extended to topple by the player's own control, but can potentially be induced by the opponent's wrestling move, though likely an uncommon event). The meta could revolve around poking to contest the overarm space with as little extension as possible and then rushing in to capture the flag, which forces the opponent to react
+  * Overarm space: the gripper positioned above the opponent's gripper has a distinct advantage of having direct line of sight to the flag (because the flag is 38 cm tall), while the gripper underneath is blocked by the opponent robot's body and the trunk of the arm. However, over-extension can result in a large lever and risk toppling the player's own robot over (it has to be very far extended to topple by the player's own control, but can potentially be induced by the opponent's arm, though likely an uncommon event). The meta could revolve around poking to contest the overarm space with as little extension as possible and then rushing in to capture the flag, which forces the opponent to react
   * Use PLA shielding to protect the flag, but note that the vertical height cannot be taller than the flag-mount
+  * Use a specially shaped PLA arm/gripper, like a crescent-shaped arm
   * Control better manually to bypass the opponent's arm, made possible if the gait is effectively written
   * Use Nav to circle around the opponent
   * Use RL to compensate for the arm extension imbalance
