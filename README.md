@@ -29,28 +29,28 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 ### Arena/flag
 
   * Arena: a 1.5 m x 2 m picnic blanket (for example, [Amazon](https://www.amazon.de/Blanket-Waterproof-Portable-Sandproof-Insulated/dp/B0BZFPB2CX)). The robot exits the arena if one foot lands outside the arena
-  * Start position: long opposite ends of the arena facing each other
-  * Front direction: the direction that is facing the opponent in the start position
+  * Starting position: long, opposite ends of the arena facing each other
+  * Front direction: the direction that faces the opponent in the starting position
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Height baseline: the top of the battery
   * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)). The pole is typically a flexible metal rod, which prevents excessive drag on the robot and damage to the flag mount. Probably best to get from a referee if available because the pole could be a bit bent
   * Flag-mount standard: The flag mount should be made of PLA but can have any shape, provided that it incorporates a blind cylindrical clearance hole with an internal diameter of at least 6 mm and a depth of no more than 40 mm. The 1.5 mm flag pole should be loosely inserted into this clearance hole without clamping or fastening. No solid structure should extend above the top of the clearance. 
-  * Flag-mount position: The bottom of the clearance hole should be no more than 80 mm above the height baseline. The center of the clearance should be no more than 80 mm in distance from the base servo of the arm. The clearance-hole axis must point vertically upward in the rest stance. The flag-mount should be stationary relative to the robot body. Only one flag-mount is allowed to be mounted on the robot at a time, and it cannot change position upon seeing the opponent's robot
+  * Flag-mount position: The top of the clearance hole should be no more than 160 mm above the height baseline. The center of the clearance should be no more than 80 mm in horizontal distance from the base servo of the arm. The clearance-hole axis must point vertically upward in the rest stance. The flag-mount should be stationary relative to the robot body. Only one flag-mount is allowed to be mounted on the robot at a time, and it cannot change position upon seeing the opponent's robot
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
 
 ### Robot requirements
 
-  * 4x``N``-DOF quadruped with 1x``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
-    - For the arm, let's always keep the gripper: at least 1-DOF should be reserved for a gripper at the end effector of the arm. No hook or sharp structure on the arm
-    - For V0, only 1 arm is allowed, and so only 1 base servo daisy-chained until the gripper
+  * 4x``N``-DOF quadruped with 1x``M``-DOF arm (DOF: degree of freedom) using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but the budget should be controlled to < 1000 EUR. See the "Budget calculation" section for details. 
+    - For the arm, let's always keep the gripper: at least 1 DOF should be reserved for a gripper at the end effector of the arm. No hook or sharp structure on the arm
+    - For V0, only 1 arm is allowed, so only 1 base servo is used and is daisy-chained until the gripper
     - While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
     - Untethered using batteries
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
-    - Bolts+nuts+washers, heat set inserts, and glue are all allowed, but only for connections
+    - Bolts+nuts+washers, heat-set inserts, and glue are all allowed, but only for connections
     - Allow bearings and the linkages/spacers/springs between bearings to be non-PLA materials, but again only for connections
-    - Allow insulation tapes, Kapton tapes, heat-shrinks, wire wrappers, and zip ties. Other tape types are not allowed (let's skip duct tapes, shall we, they are too strong)
+    - Allow insulation tapes, Kapton tapes, heat-shrink, wire wrappers, and zip ties. Other tape types are not allowed (let's skip duct tape, shall we? They are too strong)
     - Allow gripping material only on the feet
-    - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm
+    - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm. Moreover, the opponent must be able to have a complete grasp of the flag from at least one direction of the robot
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
     - remember to set a unique ``ROS_DOMAIN_ID`` to avoid ROS control interference. 
       
@@ -88,7 +88,7 @@ Run the robot and use the following to check if the domain is properly set (defa
     - ... to be exhausted
     - Accidental actions will be warned. Deliberate and repeated accidental actions will result in disqualification
   * The body-to-body contact is permitted. The arm-to-body contact is only allowed on the PLA parts; when in doubt, don't do it, as this is for far extended PLA structures. Deliberate arm-to-leg contact is prohibited
-  * Recommended start sequence of each side stands up and rests one after another, then stands up and rests together to check controller interference
+  * Recommended starting sequence to check controller interference: each side stands up and rests one after another, then stands up and rests together
     - No interference with the communication, control, or software systems, including hacking or jamming
     - No interference with the human controllers in any way
   * Each game times out after 5 min:
