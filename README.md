@@ -42,6 +42,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
 
   * 4x``N``-DOF quadruped with 1x``M``-DOF arm using ST-3215 servos (including the servo horns). The ``N`` and ``M`` can be any numbers, but with the budget controlled to < 1000 EUR. See the "Budget calculation" section for details
     - For the arm, let's always keep the gripper: at least 1-DOF should be reserved for a gripper at the end effector of the arm. No hook or sharp structure on the arm
+    - For V0, only 1 arm is allowed, and so only 1 base servo daisy-chained until the gripper
     - While belly on the ground is available in the game, the robot must demonstrate walking capability on 4 legs with only the feet touching the ground
     - Untethered using batteries
   * Printed with PLA or its variants for all its support parts, but otherwise free to design any parts 
