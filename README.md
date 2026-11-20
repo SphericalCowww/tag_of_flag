@@ -51,6 +51,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
     - Allow insulation tapes, Kapton tapes, heat-shrink, wire wrappers, and zip ties. Other tape types are not allowed (let's skip duct tape, shall we? They are too strong)
     - Allow gripping material only on the feet
     - Considering the shielding dimension, the CAD cannot be built to be taller than the mounted flag-mount on the robot; no part should be covering or overlapping with the line of sight of the flat insert. The only exception will be the moving parts of the arm. Moreover, the opponent must be able to have a complete grasp of the flag from at least one direction of the robot
+    - The only exception with PLA would be the resins directly from the SO-101 suppliers
   * Controlled by ROS2, but the gait, automation, and reinforcement learning stack are completely free to optimize
     - remember to set a unique ``ROS_DOMAIN_ID`` to avoid ROS control interference. 
       
