@@ -25,7 +25,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
    * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire. Preferably with a fire blanket as well; drag the robot on the blanket with the tong if needed
    * Disabling servo stall shutdown is NOT allowed
    * The batteries should be equipped with a battery management system (BMS), check the commercial specification
-   * Even if running a Raspberry Pi, please secure its access, especially when using a common network
+   * Even if running a Raspberry Pi, please secure its access, especially when connected to a shared network. Using the smartphone's mobile hotspot may be a better option if the cellular signal is strong enough, as it provides a more isolated network environment, reduces exposure to other devices, and may help minimize network interference.
 
 ### Arena/flag
 
@@ -34,7 +34,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
   * Front direction: the direction that faces the opponent in the starting position
   * Rest stance: the default robot stance when the robot is just turned on without touching the controllers
   * Height baseline: the top of the battery
-  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)). The pole is typically a flexible metal rod, which prevents excessive drag on the robot and damage to the flag mount. Probably best to get from a referee if available because the pole could be a bit bent
+  * Flag standard: a 38 cm tall survey flag, with a pole diameter of 1.5 mm (for example, [Amazon](https://www.amazon.de/Assembly-writeable-landscaping-weatherproof-measuring/dp/B0BGSCJXCQ)). The pole is typically a flexible metal rod, which prevents excessive drag on the robot and damage to the flag mount. Probably best to get from a referee if available because the pole could be a bit bent, or remember to bring a pair of pliers to bend it back
   * Flag-mount standard: The flag mount should be made of PLA but can have any shape, provided that it incorporates a blind cylindrical clearance hole with an internal diameter of at least 6 mm and a depth of no more than 40 mm. The 1.5-mm diameter flag pole should be loosely inserted into this clearance hole without clamping or fastening. No solid structure should extend above the top of the clearance. 
   * Flag-mount position: The top of the clearance hole should be no more than 160 mm above the height baseline. The center of the clearance should be no more than 80 mm horizontally from the arm's base servo. The clearance-hole axis must point vertically upward in the rest stance. The flag-mount should be stationary relative to the robot body. Only one flag-mount is allowed to be mounted on the robot at a time, and it cannot change position upon seeing the opponent's robot
   * Please bring spare flag-mounts. Don't want broken flag-mounts for disqualification
