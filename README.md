@@ -6,7 +6,7 @@ Proposing Tag of Flag (ToF) as a game with quadrupeds carrying an arm. The goal 
 
 With the recent CD-07B update ([GitHub](https://github.com/SphericalCowww/CubicDoggo_07B)) suggesting a low-budget 12-DOF quadruped can carry more than 1 kg of payload, and a recent ROS2 Jazzy implementation ([GitHub](https://github.com/adoodevv/so101_ros2)) of the SO-101 arm of roughly 700g ([HuggingFace](https://huggingface.co/docs/lerobot/en/so101)), I think this make the following game challenge possible. 
 
-In developing winning strategies, this game could reinforce multiple engineering disciplines that benefit the robotics community. I believe this game has the potential to be **an educational experience with a spectacular competitive challenge, as well as a long-term open research platform with a worthwhile common goal.** The goal, for instance, could be to train a reinforcement learning (RL) agent to compete against a human operator and learn to win at ToF, perhaps like AlphaStar for StarCraft II.
+In developing winning strategies, this game could reinforce multiple engineering disciplines that benefit the robotics community. I believe this game has the potential to be **an educational experience with a spectacular competitive challenge, as well as a long-term open research platform with a worthwhile common goal.** The goal, for instance, could be to train a reinforcement learning (RL) agent to compete against a human operator and learn to win at ToF; perhaps it's like AlphaStar for StarCraft II, but with physical constraints.
 
 Here is a link to the [subreddit](https://www.reddit.com/r/TagofFlag/) that was created.
 
