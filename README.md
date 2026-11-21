@@ -25,6 +25,7 @@ The goal is simple: 2 players each control a quadruped that starts with a flag o
    * **Fire safety**: Please bring a bucket of sand and a long barbecue tong in case the lithium batteries catch on fire. Preferably with a fire blanket as well; drag the robot on the blanket with the tong if needed
    * Disabling servo stall shutdown is NOT allowed
    * The batteries should be equipped with a battery management system (BMS), check the commercial specification
+   * Even if running a Raspberry Pi, please secure its access, especially when using a common network
 
 ### Arena/flag
 
